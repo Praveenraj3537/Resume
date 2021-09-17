@@ -1,7 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenraj3537&layout=compact)](https://github.com/Praveenraj3537/Resume)
 
 ## Available Scripts
 
