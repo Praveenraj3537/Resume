@@ -42,12 +42,13 @@ const Sidebar = () => {
       <img src={one} alt="Profile Pic" className="sidebar_image" />
       <div className="sidebar_name">Praveenraj Pattar</div>
       <div className="sidebar_item sidebar_title">Full-Stack Developer</div>
-      <a href={CV} download="PRAVEENRAJ_CV.pdf" target="_blank">
+      
+      <a href="https://drive.google.com/file/d/0B2nl3n1zidWYNjJaTDdyQ0tqbGs/view?usp=sharing&resourcekey=0-jcXn3611GzFHNQdBwdvaxg" download="PRAVEENRAJ_CV.pdf" target="_blank">
         <div className="sidebar_item sidebar_item_resume">
           <img src={resume} alt="CV" className="sidebar_icon" /> CV
         </div>
       </a>
-      <a href={Resume} download="PRAVEENRAJ_Resume.pdf" target="_blank">
+      <a href="https://drive.google.com/file/d/1vSYmoEQbZt2dRX4poedvg9hdSXrjp5SD/view?usp=sharing" download="PRAVEENRAJ_Resume.pdf" target="_blank">
         <div className="sidebar_item sidebar_item_resume">
           <img src={resume} alt="Resume" className="sidebar_icon" /> Resume
         </div>
