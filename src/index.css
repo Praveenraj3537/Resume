@@ -3,6 +3,7 @@
 body{
     background-image: linear-gradient( to right bottom, #3D7EAA, #FFE47A);
     background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 
@@ -78,7 +79,9 @@ a:hover{
 }
 
 .sidebar_name{
-    font-family:Verdana;
+    font-family:monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin: 20px 0px;
 }
 
@@ -110,6 +113,10 @@ a:hover{
 
 .sidebar_email:hover{
     transform: scale(1.2);
+}
+.sidebar_coffee{
+    /* height: 40px; */
+    font-weight: 800;
 }
 
 .sidebar_contact{
@@ -203,15 +210,18 @@ a:hover{
     width: 60px;
     height: 50px;
 }
+.skill_card-title{
+    font-weight: 700;
+}
 
 .skill_card-body{
     margin-left: 15px;
-
 }
 
 .skill_card-content{
     margin: 0px;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    /* font-family: 'Courier New', Courier, monospace; */
     color:rgb(0, 0, 0);
 }
 
