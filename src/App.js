@@ -9,7 +9,7 @@ import Copyrights from './components/Copyrights';
 import Projects from './components/Projects';
 import Education from './components/Education';
 
-function App() {
+export const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
@@ -51,5 +51,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;

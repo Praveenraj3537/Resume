@@ -341,4 +341,10 @@ a:hover{
     font-size: 1rem;
     cursor: pointer;
 }
+.projectDetails_details {
+    /* display: flex; */
+    font-size: 0.9rem;
+    text-align: justify;
+    margin-top: 3px;
+}
 

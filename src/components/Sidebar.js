@@ -4,7 +4,7 @@ import github from '../assets/icons/github.svg';
 import pin from '../assets/icons/pin.svg';
 import resume from '../assets/icons/resume.svg';
 import CV from '../assets/PRAVEENRAJ_CV.pdf';
-import Resume from '../assets/PRAVEENRAJ_CV.pdf';
+import Resume from '../assets/PRAVEENRAJ_Resume.pdf';
 import one from '../assets/one_.jpeg';
 import email from '../assets/icons/email.svg';
 import mobile from '../assets/icons/mobile.svg';

@@ -4,17 +4,33 @@ import trak from '../assets/icons/trak.jpg';
 import kle from '../assets/icons/kle.jfif';
 import bvb from '../assets/icons/bvb.jpg';
 import intel from '../assets/icons/Intel.svg';
+import bulb from '../assets/icons/bulb.jpeg';
+import nonce from '../assets/icons/nonce.png';
 
 import { motion } from 'framer-motion';
 
 const Details = () =>{
     const experiences = [
         {
+            icon: nonce,
+            name:"Nonceblox", 
+            designation:"FullStack Developer", 
+            duration:"Dec 2021 to Present", 
+            role:"Full Stack Developer"
+        },
+        {
+            icon: bulb,
+            name:"Bulb and Key", 
+            designation:"FullStack Developer", 
+            duration:"Nov 2021 to Dec 2021", 
+            role:"Full Stack Developer"
+        },
+        {
             icon: trak,
             name:"TrakInvest", 
             designation:"FullStack Developer", 
-            duration:"June 2021 to Present", 
-            role:"Developer"
+            duration:"June 2021 to Nov 2021", 
+            role:"Full Stack Developer"
         },
         {
             icon:kle,

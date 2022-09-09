@@ -34,10 +34,11 @@ const Projects = () => {
         >
             <div className="projects_navbar">
                 <div onClick={() => setProjects(data_projects)}>All</div>
+                <div onClick={() => handlFilterCategory('react')}>React</div>
+                <div onClick={() => handlFilterCategory('angular')}>Angular</div>
                 <div onClick={() => handlFilterCategory('python')}>Python</div>
                 <div onClick={() => handlFilterCategory('c')}>C</div>
-                <div onClick={() => handlFilterCategory('nest.js')}>NestJS</div>
-                <div onClick={() => handlFilterCategory('node.js')}>NodeJS</div>
+                <div onClick={() => handlFilterCategory('nestjs')}>NestJS</div>
 
             </div>
             <div className="row">
