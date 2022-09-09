@@ -4,9 +4,7 @@ import trak from '../assets/icons/trak.jpg';
 import kle from '../assets/icons/kle.jfif';
 import bvb from '../assets/icons/bvb.jpg';
 import intel from '../assets/icons/Intel.svg';
-import sainik from '../assets/icons/sainik.png';
-import uvce from '../assets/icons/uvce.jfif';
-import bms from '../assets/icons/bms.png';
+
 import { motion } from 'framer-motion';
 
 const Details = () =>{
@@ -42,34 +40,6 @@ const Details = () =>{
 
     ];
 
-    const educations = [
-        {
-            icon: bms,
-            name:"BMS College of Engineering", 
-            designation:"M.Tech(CSE)", 
-            duration:"Aug 2013 to July 2015", 
-        },
-        {
-            icon: uvce,
-            name:"University Visvesvaraya College of Engineering", 
-            designation:"B.E(ISE)", 
-            duration:"Aug 2007 to July 2012", 
-        },
-        {
-            icon: sainik,
-            name:"Sainik School Bijapur", 
-            designation:"12th", 
-            duration:"Aug 2006 to July 2007", 
-        },
-        {
-            icon: sainik,
-            name:"Sainik School Bijapur", 
-            designation:"10th", 
-            duration:"Aug 2004 to July 2005", 
-        },
-        
-
-    ];
 
     const details_motion = {
         hidden:{
@@ -99,14 +69,14 @@ const Details = () =>{
                             )
                     }
                 </div>
-                <h5 className="resume_heading">Education Details</h5>
+                {/* <h5 className="resume_heading">Education Details</h5>
                     <div className="row">
                     {
                         educations.map(company =>
                         <Experience company = {company}/>
                             )
                     }
-                </div>
+                </div> */}
             </div>
             
 

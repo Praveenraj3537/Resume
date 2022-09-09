@@ -7,6 +7,7 @@ import About from './components/About';
 import Details from './components/Details';
 import Copyrights from './components/Copyrights';
 import Projects from './components/Projects';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -29,8 +30,11 @@ function App() {
                   <Route path="/languages">
                     <Languages />
                   </Route>
-                  <Route path="/details">
+                  <Route path="/professional">
                     <Details />
+                  </Route>
+                  <Route path="/education">
+                    <Education />
                   </Route>
                   <Route path="/projects">
                     <Projects />

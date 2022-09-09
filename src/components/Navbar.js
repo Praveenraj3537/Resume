@@ -20,8 +20,10 @@ const Navbar = () => {
                         setActive('Languages')
                         else if(URL.endsWith('/copyrights'))
                             setActive('Copyrights')
-                            else if(URL.endsWith('/details'))
-                                setActive('Details')
+                            else if(URL.endsWith('/professional'))
+                                setActive('Professional')
+                                else if(URL.endsWith('/education'))
+                                setActive('Education')
     }, [active]);
 
     const navbar_motion = {
@@ -70,9 +72,14 @@ const Navbar = () => {
                         </Link>
                 }
 
-                {active !== 'Details' &&
-                    <Link to="/details">
-                        <div className="navbar_item" onClick={() => setActive('Details')}>Professional Details</div>
+                {active !== 'Professional' &&
+                    <Link to="/professional">
+                        <div className="navbar_item" onClick={() => setActive('Professional')}>Professional</div>
+                    </Link>
+                }
+                {active !== 'Education' &&
+                    <Link to="/education">
+                        <div className="navbar_item" onClick={() => setActive('education')}>Education</div>
                     </Link>
                 }
             </div>

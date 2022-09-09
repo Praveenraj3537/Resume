@@ -3,7 +3,8 @@ import linkedin from '../assets/icons/linkedin.gif';
 import github from '../assets/icons/github.svg';
 import pin from '../assets/icons/pin.svg';
 import resume from '../assets/icons/resume.svg';
-import PRAVEENRAJ from '../assets/PRAVEENRAJ.pdf';
+import CV from '../assets/PRAVEENRAJ_CV.pdf';
+import Resume from '../assets/PRAVEENRAJ_CV.pdf';
 import one from '../assets/one_.jpeg';
 import email from '../assets/icons/email.svg';
 import mobile from '../assets/icons/mobile.svg';
@@ -39,9 +40,14 @@ const Sidebar = () =>{
            <img src={one} alt="Profile Pic" className="sidebar_image" />
            <div className="sidebar_name">Praveenraj Pattar</div>
            <div className="sidebar_item sidebar_title">Full-Stack Developer</div>
-           <a href={PRAVEENRAJ} download='PRAVEENRAJ_Resume.pdf'>
+           <a href={CV} download='PRAVEENRAJ_CV.pdf' target="_blank">
                <div className="sidebar_item sidebar_item_resume">
-                <img src={resume} alt="resume" className="sidebar_icon"/>       Resume
+                <img src={resume} alt="CV" className="sidebar_icon"/>               CV
+               </div>
+           </a>
+           <a href={Resume} download='PRAVEENRAJ_Resume.pdf' target="_blank">
+               <div className="sidebar_item sidebar_item_resume">
+                <img src={resume} alt="Resume" className="sidebar_icon"/>       Resume
                </div>
            </a>
            <figure className="sidebar_social-icons my-2">
