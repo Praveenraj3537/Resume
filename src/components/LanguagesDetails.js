@@ -10,7 +10,7 @@ const LanguagesDetails = ({ language: { icon, lang, level } }) => {
             'width':bar_width
         }}>
             <span className="bar_name">
-                <img src={icon} alt="icon" className="bar_icon mr-2"/>{lang}
+                <img src={icon} alt="icon" className="bar_icon mr-4"/>{lang}
             </span>
         </div>
     </div>

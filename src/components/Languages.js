@@ -3,8 +3,8 @@ import html from '../assets/icons/HTML5.svg';
 import css from '../assets/icons/CSS3.svg';
 import boot from '../assets/icons/Bootstrap.svg';
 import javascript from '../assets/icons/javascript.svg';
-import type from '../assets/icons/Typescript.svg';
-import ang from '../assets/icons/angular.svg';
+import typescript from '../assets/icons/Typescript.svg';
+import angular from '../assets/icons/angular.svg';
 import c from '../assets/icons/c.svg';
 import py from '../assets/icons/python.svg';
 import react from '../assets/icons/react.svg';
@@ -37,7 +37,7 @@ const languages = [
         level: '79'
     },
     {
-        icon: type,
+        icon: typescript,
         lang: "Typescript",
         level: '72'
     },
@@ -62,7 +62,7 @@ const frameworks = [
         level: '80'
     },
     {
-        icon: ang,
+        icon: angular,
         lang: "Angular",
         level: '76'
 
@@ -75,7 +75,7 @@ const frameworks = [
     {
         icon: nest,
         lang: "NestJS",
-        level: '71'
+        level: '65'
     }
 ];
 

@@ -7,13 +7,7 @@ import resume from '../../assets/icons/resume.png';
 import platform from '../../assets/icons/platform.jpg';
 
 const data_projects = [
-    {
-        name: 'Resume with ReactJS',
-        image: resume,
-        github_url: 'https://github.com/Praveenraj3537/Resume',
-        category: ['react'],
-        description: 'The project is based on ReactJS library. I have made use of react components to render them separately. All the relevant details required for the professional career is given here. The complete list of projects along with usage of technologies are also mentioned.',
-    },
+  
     {
         name: 'Coding Assessment Platform',
         image: cap,
@@ -27,6 +21,13 @@ const data_projects = [
         github_url: 'https://github.com/Praveenraj3537/Enterprise_Platform',
         category: ['nestjs','angular'],
         description: 'This project uses Angular for frontend and NestJS for backend. I have made use of jsons to generate HTML files based on conditions. Made use of routes to move different endpoints. API-GATEWAY is used to take request from frontend and enable microservices. Microservice will form exchanges and queues in rabbitmq and store respective details. Backend platform is made to handle request and response from frontend and API-GATEWAY. Postgres Database is used to store all the details.',
+    },
+    {
+        name: 'Resume with ReactJS',
+        image: resume,
+        github_url: 'https://github.com/Praveenraj3537/Resume',
+        category: ['react'],
+        description: 'The project is based on ReactJS library. I have made use of react components to render them separately. All the relevant details required for the professional career is given here. The complete list of projects along with usage of technologies are also mentioned.',
     },
     {
         name: 'Face Detection With Bounding Box',
