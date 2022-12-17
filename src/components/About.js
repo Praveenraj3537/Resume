@@ -42,7 +42,7 @@ const About = () =>{
         {
             icon: docker,
             title:"Docker Services",
-            about:"I can make use of docker serives to deploy."
+            about:"I can make use of docker services to manage and deploy."
         }
 
     ];
