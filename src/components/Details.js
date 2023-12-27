@@ -12,10 +12,18 @@ import { motion } from 'framer-motion';
 const Details = () => {
     const experiences = [
         {
+            icon: ncet,
+            name: "NCET",
+            designation: "Assistant Professor",
+            duration: "Oct 2023 to Present",
+            role: "Assistant Professor"
+
+        },
+        {
             icon: siemens,
             name: "Siemens",
             designation: "Research Professional",
-            duration: "Nov 2022 to Present",
+            duration: "Nov 2022 to Sep 2023",
             role: "Research Engineer"
         },
         {
