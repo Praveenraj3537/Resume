@@ -6,6 +6,7 @@ import bvb from '../assets/icons/bvb.jpg';
 import intel from '../assets/icons/Intel.svg';
 import siemens from '../assets/icons/siemens.jpg';
 import nonce from '../assets/icons/nonce.png';
+import ncet from '../assets/icons/ncet.png';
 
 import { motion } from 'framer-motion';
 
