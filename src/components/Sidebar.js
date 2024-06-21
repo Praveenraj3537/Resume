@@ -3,8 +3,8 @@ import linkedin from "../assets/icons/linkedin.gif";
 import github from "../assets/icons/github.svg";
 import pin from "../assets/icons/pin.svg";
 import resume from "../assets/icons/resume.svg";
-import CV from "../assets/PRAVEENRAJ_CV.pdf";
-import Resume from "../assets/PRAVEENRAJ_RESUME.pdf";
+// import CV from "../assets/PRAVEENRAJ_CV.pdf";
+// import Resume from "../assets/PRAVEENRAJ_RESUME.pdf";
 import one from "../assets/one_.jpeg";
 import email from "../assets/icons/email.svg";
 import coffee from "../assets/icons/coffeescript.svg";
@@ -42,13 +42,13 @@ const Sidebar = () => {
       <img src={one} alt="Profile Pic" className="sidebar_image" />
       <div className="sidebar_name">Praveenraj Pattar</div>
       <div className="sidebar_item sidebar_title">Full-Stack Developer</div>
-      
-      <a href="https://drive.google.com/file/d/1bxCrnyH-q52OG_-uInx0KuaQ7DY3dRX2/view?usp=share_link" download="PRAVEENRAJ_CV.pdf" target="_blank">
+
+      <a href="https://drive.google.com/file/d/1bxCrnyH-q52OG_-uInx0KuaQ7DY3dRX2/view?usp=share_link" target="_blank" rel="noopener noreferrer">
         <div className="sidebar_item sidebar_item_resume">
           <img src={resume} alt="CV" className="sidebar_icon" /> CV
         </div>
       </a>
-      <a href="https://drive.google.com/file/d/16abN1NUl7hT6OQg6Eee3IwhIe1JM-w2y/view?usp=share_link" download="PRAVEENRAJ_Resume.pdf" target="_blank">
+      <a href="https://drive.google.com/file/d/16abN1NUl7hT6OQg6Eee3IwhIe1JM-w2y/view?usp=share_link" target="_blank" rel="noopener noreferrer">
         <div className="sidebar_item sidebar_item_resume">
           <img src={resume} alt="Resume" className="sidebar_icon" /> Resume
         </div>
