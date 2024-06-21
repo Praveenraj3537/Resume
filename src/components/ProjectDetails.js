@@ -7,11 +7,11 @@ const ProjectDetails = ({
   return (
     <div className="projectDetails col-md-5 col-lg-4 ">
       <figure className="projectDetails_wrapper">
-        <a href={github_url} target="_blank">
+        <a href={github_url} target="_blank" rel="noopener noreferrer">
           <img src={image} alt={name} className="projectDetails_image" />
         </a>
         <div className="projectDetails_title">
-          <a href={github_url} target="_blank">
+          <a href={github_url} target="_blank" rel="noopener noreferrer">
             <img src={git} alt="github link" className="projectDetails_icon" />
           </a>
           {name}

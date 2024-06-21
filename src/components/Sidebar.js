@@ -54,12 +54,12 @@ const Sidebar = () => {
         </div>
       </a>
       <figure className="sidebar_social-icons my-2">
-        <a href="https://www.github.com/Praveenraj3537" target="_blank">
+        <a href="https://www.github.com/Praveenraj3537" target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github-link" className="sidebar_icon mr-3" />
         </a>
         <a
           href="https://linkedin.com/in/praveenraj-pattar-95588941/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <img
             src={linkedin}
@@ -91,7 +91,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar_item sidebar_coffee">
         <img src={coffee} alt="coffee" className="sidebar_icon_pin" />
-        <a href="https://www.buymeacoffee.com/pbpattar" target="_blank"> Buy me a Chai </a>
+        <a href="https://www.buymeacoffee.com/pbpattar" target="_blank" rel="noopener noreferrer"> Buy me a Chai </a>
       </div>
     </motion.div>
   );
