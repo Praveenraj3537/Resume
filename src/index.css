@@ -293,11 +293,12 @@ a:hover{
 }
 
 .bar_wrapper {
-    background-image: linear-gradient(90deg, #3D7EAA, #FFE47A);
+    background-image: linear-gradient(90deg, #ab84ea, #f26929);
     border-radius: 20px;
     padding: 4px 14px;
-    color: #CCF54A;
+    color: #344304;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 /* --------------------Projects-------------------- */
