@@ -42,7 +42,7 @@ const Sidebar = () => {
     >
       <img src={one} alt="Profile Pic" className="sidebar_image" />
       <div className="sidebar_name">Praveenraj Pattar</div>
-      <div className="sidebar_item sidebar_title">Full-Stack Developer</div>
+      <div className="sidebar_item sidebar_title">Full-Stack Developer & Researcher</div>
 
       <a href="https://drive.google.com/file/d/1bxCrnyH-q52OG_-uInx0KuaQ7DY3dRX2/view?usp=share_link" target="_blank" rel="noopener noreferrer">
         <div className="sidebar_item sidebar_item_resume">
