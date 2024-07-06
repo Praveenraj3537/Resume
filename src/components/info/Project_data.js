@@ -5,21 +5,45 @@ import face1 from '../../assets/projects_images/face1.png';
 import cap from '../../assets/icons/cap.png';
 import resume from '../../assets/icons/resume.png';
 import platform from '../../assets/icons/platform.jpg';
+import resnet from '../../assets/icons/resnet50.png';
+import depthwise from '../../assets/icons/depthwise.png';
+import alexnet from '../../assets/icons/alexnet.png';
 
 const data_projects = [
-  
+    {
+        name: 'Depthwise Separable Convolution',
+        image: depthwise,
+        github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/Depthwise%20Separable%20Convolution.ipynb',
+        category: ['python'],
+        description: 'This project shows the deptwise separable convolution implementation. Here I have normal vs he-normalization method for initilization of filter for convoultion.Also I compared the normal Standard 2D convolution vs Deptwise Separable Convolution. ',
+    },
+    {
+        name: 'ResNet50',
+        image: resnet,
+        github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/ResNet50%20from%20Scratch.ipynb',
+        category: ['python'],
+        description: 'This project implements the ResNet50 Architecture from scratch using flower dataset. Here the code is implemented as per the architecture.',
+    },
+    {
+        name: 'AlexNet',
+        image: alexnet,
+        github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/AlexNet.ipynb',
+        category: ['python'],
+        description: 'This project implements the AlexNet from scratch taking own dataset. As per the original paper we have not used the GPU but kept the training for longer time to excuted plus we did run for few epochs to understand.',
+    },
+
     {
         name: 'Coding Assessment Platform',
         image: cap,
         github_url: 'https://github.com/Praveenraj3537/cap-platform-backend',
-        category: ['nestjs','angular'],
+        category: ['nestjs', 'angular'],
         description: 'This project uses Angular for frontend and NestJS for backend. I have made use of components to render respective components separately. Made use of routes to move different endpoints. API-GATEWAY is used to take request from frontend and enable microservices. Microservice will form exchanges and queues in rabbitmq and store respective details. Backend platform is made to handle request and response from frontend and API-GATEWAY. Postgres Database is used to store all the details.',
     },
     {
         name: 'Enterprise Platform',
         image: platform,
         github_url: 'https://github.com/Praveenraj3537/Enterprise_Platform',
-        category: ['nestjs','angular'],
+        category: ['nestjs', 'angular'],
         description: 'This project uses Angular for frontend and NestJS for backend. I have made use of jsons to generate HTML files based on conditions. Made use of routes to move different endpoints. API-GATEWAY is used to take request from frontend and enable microservices. Microservice will form exchanges and queues in rabbitmq and store respective details. Backend platform is made to handle request and response from frontend and API-GATEWAY. Postgres Database is used to store all the details.',
     },
     {
@@ -57,7 +81,7 @@ const data_projects = [
         category: ['python'],
         description: 'The project is based on Machine Learning. I have made use of fashion MNSIT dataset for training and testing the images to predict. Made use of Kears library for sequential modeling of the data. Predictions are made on random apperals images.',
     },
-    
+
 ]
 
 export default data_projects;
