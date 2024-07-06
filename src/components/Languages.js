@@ -16,6 +16,21 @@ import { motion } from 'framer-motion';
 
 const languages = [
     {
+        icon: py,
+        lang: "Python 3",
+        level: '90'
+    },
+    {
+        icon: c,
+        lang: "C Programming",
+        level: '85'
+    },
+    {
+        icon: javascript,
+        lang: "Javascript",
+        level: '80'
+    },
+    {
         icon: html,
         lang: "HTML 5",
         level: '90'
@@ -31,26 +46,12 @@ const languages = [
         lang: "Bootstrap",
         level: '80'
     },
-    {
-        icon: javascript,
-        lang: "Javascript",
-        level: '79'
-    },
+    
     {
         icon: typescript,
         lang: "Typescript",
         level: '72'
-    },
-    {
-        icon: c,
-        lang: "C Programming",
-        level: '85'
-    },
-    {
-        icon: py,
-        lang: "Python 3",
-        level: '78'
-    },
+    },      
 
 ];
 
