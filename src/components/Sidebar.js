@@ -3,6 +3,7 @@ import linkedin from "../assets/icons/linkedin.gif";
 import github from "../assets/icons/github.svg";
 import pin from "../assets/icons/pin.svg";
 import resume from "../assets/icons/resume.svg";
+import gscholar from "../assets/icons/Google_Scholar_logo.svg";
 // import CV from "../assets/PRAVEENRAJ_CV.pdf";
 // import Resume from "../assets/PRAVEENRAJ_RESUME.pdf";
 import one from "../assets/one_.jpeg";
@@ -64,7 +65,15 @@ const Sidebar = () => {
           <img
             src={linkedin}
             alt="linkedIn-link"
-            className="sidebar_icon ml-1"
+            className="sidebar_icon mr-1"
+          />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://scholar.google.com/citations?user=nnUsgIYAAAAJ" target="_blank" rel="noopener noreferrer">
+          <img
+            src={gscholar}
+            alt="GoogleScholarLink"
+            className="sidebar_icon mr-3"
           />
         </a>
       </figure>
