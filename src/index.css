@@ -1,67 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
-body{
-    background-image: linear-gradient( to right bottom, #0590ec, #e7c645c3);
+body {
+    background-image: linear-gradient(to right bottom, #0590ec, #e7c645c3);
     background-attachment: fixed;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 17px;
-    border: 1px solid #100f0f76 ;
-    border-radius: 20px;
+    /* border: 1px solid #100f0f76 ; */
+    /* border-radius: 20px; */
     padding: auto;
 }
 
-::-webkit-scrollbar-thumb{
-    background-image: linear-gradient( to right bottom, #1f89ec, #FFE57D);
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #1f89ec, #FFE57D);
     border-radius: 20px;
     height: 20px;
 }
+
 /* ::-webkit-scrollbar-thumb:hover {
     background-color: #0590ec;
 } */
 
 
-a{
+a {
     text-decoration: tomato;
     color: black
 }
 
 
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: rgba(55, 12, 247, 0.986);
 }
 
-.app_container{
+.app_container {
     padding-top: 10px;
     height: 90vh;
 }
 
-.app_main-content{
-    background-color:#fff;
+.app_main-content {
+    background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 0 10px black;
     height: 97vh;
     overflow-y: auto;
 }
 
-.app_row{
+.app_row {
     height: 97vh;
 }
 
-.sidebar_image{
+.sidebar_image {
     height: 110px;
     width: 120px;
     object-fit: contain;
     border-radius: 30px;
 }
 
-.sidebar{
-    background-color:#fff;
+.sidebar {
+    background-color: #fff;
     height: 97vh;
     border-radius: 20px;
     padding: 5px;
@@ -73,32 +73,31 @@ a:hover{
 
 
 
-.sidebar_email_display{
+.sidebar_email_display {
     /* content: fit; 
     text-align: center;
     width: 100px;*/
-    text-overflow:unset
-
+    text-overflow: unset
 }
 
-.sidebar_icon{
+.sidebar_icon {
     height: 35px;
     width: 30px;
 }
 
-.sidebar_icon_pin{
+.sidebar_icon_pin {
     height: 25px;
     width: 20px;
 }
 
-.sidebar_name{
-    font-family:monospace;
+.sidebar_name {
+    font-family: monospace;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 20px 0px;
 }
 
-.sidebar_item{
+.sidebar_item {
     /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
     margin-bottom: 10px;
     padding-top: 6px;
@@ -110,92 +109,121 @@ a:hover{
     /* width: 120%; */
 }
 
-.sidebar_title{
-    background-color:#f1f1e1;
+.sidebar_title {
+    /* background-color: #f1f1e1; */
     /* margin: 0px 20px; */
     border-radius: 40px;
     /* background: size 100px; */
     align-items: center;
+
+    background-image: linear-gradient(to right bottom, #5dace0, #f0e3ad);
+    border-radius: 30px;
+    margin: 10px 10px;
+    /* transition: all 2s linear; */
+    /* cursor: pointer; */
 }
 
-.sidebar_email{
-    background-image: linear-gradient( to right bottom, #3D7EAA, #FFE47A);
+.sidebar_email {
+    background-image: linear-gradient(to right bottom, #3D7EAA, #FFE47A);
     border-radius: 30px;
-    margin: 15px 15px;
+    margin: 10px 10px;
     transition: all 2s linear;
     cursor: pointer;
 }
 
-.sidebar_email:hover{
-    transform: scale(1.2);
+.sidebar_email:hover {
+    transform: scale(1.09);
 }
-.sidebar_coffee{
+
+.sidebar_coffee {
     /* height: 40px; */
     font-weight: 700;
     padding: 0px;
     margin: 0px;
 }
 
-.sidebar_contact{
+.sidebar_contact {
     /* background-color: darkcyan; */
     padding: 20px -15px;
     font-weight: 600;
 }
 
-.sidebar_social-icons{
-    background-color: rgb(187, 194, 196);
-    border-radius: 20px;
+.sidebar_social-icons {
+    /* background-color: rgb(187, 194, 196); */
+    /* border-radius: 20px; */
     padding: 5px 5px;
     /* height: 30px; */
-}
-.sidebar_email_display{
-    text-align: center;
-    text-overflow:ellipsis;
+    background-image: linear-gradient(to right bottom, #3D7EAA, #FFE47A);
+    border-radius: 30px;
+    margin: 10px 10px;
+    /* transition: all 2s linear; */
+    /* cursor: pointer; */
 }
 
-.sidebar_item_resume{
+.sidebar_email_display {
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.sidebar_item_resume {
     /* height: 35x; */
     /* width: 10px; */
     padding: 2px;
 }
 
-@media(max-width: 991px){
-    .app_main-content{
+@media(max-width: 991px) {
+    .app_main-content {
         margin: 15px 15px;
     }
 }
 
 /* -------------------Navbar------------------------ */
 
-.navbar_items{
+.navbar_items {
     display: flex;
 }
-.navbar_item{
+
+.navbar_item {
     margin-right: 20px;
     color: rgb(1, 1, 2);
     font-size: 1.05rem;
     cursor: pointer;
 }
 
-.navbar_active{
+.navbar_active {
     font-size: 2rem;
     font-weight: 600;
     color: rgb(146, 81, 2);
     border-bottom: 4px solid darkslategrey;
 }
- 
-.navbar_item:hover{
+
+.navbar_item:hover {
     background: -webkit-linear-gradient(#3D7EAA, #FFE47A);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
+/* -------------------Copyright */
+.copy {
+    /* padding: 25px;
+    margin: -15px; */
+
+    height: 85vh;
+    padding-top: 20px;
+    overflow-y: scroll;
+    /* overflow-y: auto; */
+}
+
 /* --------------About-------------------- */
 .about {
-    padding: 25px;
-    margin: -15px;
-    overflow-y: auto;
+    /* padding: 25px;
+    margin: -15px; */
+
+    height: 85vh;
+    padding-top: 20px;
+    overflow-y: scroll;
+    /* overflow-y: auto; */
 }
 
 .about_intro {
@@ -204,8 +232,9 @@ a:hover{
 }
 
 .about_container {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #edeaf3;
+    /* overflow-y: scroll; */
 }
 
 .about_heading {
@@ -215,7 +244,7 @@ a:hover{
 }
 
 /* skill_card */
-.skill_card{
+.skill_card {
     /* border: 4px #000; */
     background-color: rgb(233, 161, 161);
     margin: 10px;
@@ -223,36 +252,45 @@ a:hover{
     display: flex;
     flex-direction: row;
     border-radius: 10px;
+    overflow-y: auto;
 }
 
-.skill_card-icon{
+.skill_card-icon {
     width: 60px;
     height: 50px;
 }
-.skill_card-title{
+
+.skill_card-title {
     font-weight: 700;
 }
 
-.skill_card-body{
+.skill_card-body {
     margin-left: 15px;
 }
 
-.skill_card-content{
+.skill_card-content {
     margin: 0px;
     font-size: 1rem;
     /* font-family: 'Courier New', Courier, monospace; */
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    /* overflow-y: scroll; */
 }
 
 /* ---------------Experience---------------------------- */
-.resume{
+.resume {
     padding: 25px;
-    margin: -15px;
+    margin: -5px;
+    height: 85vh;
+    /* padding-top: 20px; */
+    overflow-y: scroll;
+    width: auto;
 }
 
-.resume_container{
+.resume_container {
     padding: 10px;
-    background-color:#edeaf3;
+    background-color: #edeaf3;
+
+
 }
 
 /* ------------------languages--------------------------------------- */
@@ -284,11 +322,12 @@ a:hover{
     font-size: 0.9rem;
     padding-top: 5px;
 }
-.language{
+
+.language {
     padding-top: 10px;
 }
 
-.language_heading{
+.language_heading {
     margin-left: 10px;
     font-size: 1.8rem;
     font-weight: 700;
@@ -299,7 +338,7 @@ a:hover{
 /* -------------------------------Language Details---------------------------------------- */
 .bar {
     width: 90%;
-    background-color: #f1f2f3;
+    background-color: #e3e7eb;
     border-radius: 20px;
     margin-bottom: 12px;
 
@@ -316,11 +355,12 @@ a:hover{
 }
 
 .bar_wrapper {
-    background-image: linear-gradient(90deg, #b39bda2c, #5aafba);
+    /* background-image: linear-gradient(90deg, #b39bda2c, #5aafba); */
+    background-image: linear-gradient(to right bottom, #8bc0e4, #ddc979);
     border-radius: 20px;
     padding: 4px 14px;
-    color: #344304;
-    font-size: 1rem;
+    /* color: #344304; */
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -330,7 +370,8 @@ a:hover{
     padding-top: 20px;
     overflow-y: scroll;
 }
-.projectDetails{
+
+.projectDetails {
     min-width: 350px;
 }
 
@@ -340,7 +381,7 @@ a:hover{
     /* height: 50%; */
     display: flexbox;
     /* min-height: 500px; */
-    
+
 }
 
 .projectDetails_image {
@@ -364,7 +405,7 @@ a:hover{
 
 .projectDetails_title {
     margin-top: 12px;
-    font-size:  1rem;
+    font-size: 1rem;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -381,14 +422,14 @@ a:hover{
     font-size: 1rem;
     cursor: pointer;
 }
+
 .projectDetails_details {
     display: flex;
     font-size: 1.05rem;
     text-align: justify;
     margin-top: 10px;
     /* height: 250px; */
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     overflow: overlay;
     /* margin-bottom: 10px; */
 }
-

@@ -51,12 +51,12 @@ const Sidebar = () => {
       </a>
       <a href="https://drive.google.com/file/d/16abN1NUl7hT6OQg6Eee3IwhIe1JM-w2y/view?usp=share_link" target="_blank" rel="noopener noreferrer">
         <div className="sidebar_item sidebar_item_resume">
-          <img src={resume} alt="Resume" className="sidebar_icon mr-2" /> Resume
+          <img src={resume} alt="Resume" className="sidebar_icon mr-3" /> Resume
         </div>
       </a>
       <figure className="sidebar_social-icons my-2">
         <a href="https://www.github.com/Praveenraj3537" target="_blank" rel="noopener noreferrer">
-          <img src={github} alt="github-link" className="sidebar_icon mr-2" />
+          <img src={github} alt="github-link" className="sidebar_icon mr-3" />
         </a>
         <a
           href="https://linkedin.com/in/praveenraj-pattar-95588941/"
@@ -65,7 +65,7 @@ const Sidebar = () => {
           <img
             src={linkedin}
             alt="linkedIn-link"
-            className="sidebar_icon mr-2"
+            className="sidebar_icon mr-3"
           />
         </a>
         <a href="https://scholar.google.com/citations?user=nnUsgIYAAAAJ" target="_blank" rel="noopener noreferrer">

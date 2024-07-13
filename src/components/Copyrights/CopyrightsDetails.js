@@ -1,6 +1,6 @@
 import React from "react";
 
-const CopyrightsDetails = ({copy:{title, registration, year}}) => 
+const CopyrightsDetails = ({ copy: { title, registration, year } }) =>
 
     <div className="col-lg-12">
         <div className="skill_card ">

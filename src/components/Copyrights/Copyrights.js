@@ -29,24 +29,24 @@ const Copyrights = () => {
     ];
 
     const copy_motion = {
-        hidden:{
-            y:'-100vh'
+        hidden: {
+            y: '-100vh'
         },
-        visible:{
-            y:0,
-            transition:{
-                delay:0.5,
-                duration:0.7,
-                type:'spring'
+        visible: {
+            y: 0,
+            transition: {
+                delay: 0.5,
+                duration: 0.7,
+                type: 'spring'
             }
         }
     }
 
     return (
-        <motion.div className="about"
-        variants={copy_motion}
-        initial='hidden'
-        animate='visible'
+        <motion.div className="copy"
+            variants={copy_motion}
+            initial='hidden'
+            animate='visible'
         >
             <div className="container about_container">
                 <h3 className="about_heading">

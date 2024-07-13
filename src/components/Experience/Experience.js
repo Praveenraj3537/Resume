@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experience = ({company:{icon, name, designation, duration, role}}) => 
+const Experience = ({ company: { icon, name, designation, duration, role } }) =>
 
     <div className="col-lg-6">
         <div className="skill_card">

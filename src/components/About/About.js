@@ -60,7 +60,7 @@ const About = () => {
     }
 
     return (
-        <motion.div className="about"
+        <motion.div className="container about"
             variants={about_motion}
             initial='hidden'
             animate='visible'
