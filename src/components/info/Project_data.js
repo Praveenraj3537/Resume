@@ -8,27 +8,35 @@ import platform from '../../assets/icons/platform.jpg';
 import resnet from '../../assets/icons/resnet50.png';
 import depthwise from '../../assets/icons/depthwise.png';
 import alexnet from '../../assets/icons/alexnet.png';
+import pose from '../../assets/projects_images/HumanPoseEstimation.PNG';
 
 const data_projects = [
     {
         name: 'Depthwise Separable Convolution',
         image: depthwise,
         github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/Depthwise%20Separable%20Convolution.ipynb',
-        category: ['python'],
+        category: ['python', 'ML/DL'],
         description: 'This project shows the deptwise separable convolution implementation. Here I have normal vs he-normalization method for initilization of filter for convoultion.Also I compared the normal Standard 2D convolution vs Deptwise Separable Convolution. ',
     },
     {
         name: 'ResNet50',
         image: resnet,
         github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/ResNet50%20from%20Scratch.ipynb',
-        category: ['python'],
+        category: ['python', 'ML/DL'],
         description: 'This project implements the ResNet50 Architecture from scratch using flower dataset. Here the code is implemented as per the architecture.',
+    },
+    {
+        name: '2D Human Pose Estimation',
+        image: pose,
+        github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/HumanPoseEstimation.ipynb',
+        category: ['python', 'ML/DL'],
+        description: 'This project shows the coordinates of key body joints, such as the shoulders, elbows, knees, and hips, which can then be used to understand human actions and interactions. It uses the MoveNet model. ',
     },
     {
         name: 'AlexNet',
         image: alexnet,
         github_url: 'https://github.com/Praveenraj3537/CVwithML-21CST63/blob/main/AlexNet.ipynb',
-        category: ['python'],
+        category: ['python', 'ML/DL'],
         description: 'This project implements the AlexNet from scratch taking own dataset. As per the original paper we have not used the GPU but kept the training for longer time to excuted plus we did run for few epochs to understand.',
     },
 
