@@ -288,8 +288,10 @@ a:hover{
 
 .bar_icon {
     /* padding-left: 5px; */
-    width: 30px;
-    height: 25px;
+    width: 35px;
+    height: 30px;
+    padding: 0%;
+    margin: 0;
 }
 
 .bar_wrapper {
