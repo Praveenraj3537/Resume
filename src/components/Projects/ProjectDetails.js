@@ -5,7 +5,7 @@ const ProjectDetails = ({
   project: { name, image, github_url, description },
 }) => {
   return (
-    <div className="projectDetails col-md-5 col-lg-4">
+    <div className="projectDetails col-md-5 col-lg-4 col-sm-12">
       <figure className="projectDetails_wrapper">
         <a href={github_url} target="_blank" rel="noopener noreferrer">
           <img src={image} alt={name} className="projectDetails_image" />
