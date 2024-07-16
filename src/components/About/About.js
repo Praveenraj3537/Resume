@@ -35,7 +35,7 @@ const About = () => {
         {
             icon: aws,
             title: "AWS Services",
-            about: "I can make use of aws serives to implement."
+            about: "I can make use of aws services to implement."
         },
         {
             icon: docker,
