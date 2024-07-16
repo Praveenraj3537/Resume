@@ -86,7 +86,7 @@ const data_projects = [
         name: 'Fashion MNSIT',
         image: fashion,
         github_url: 'https://github.com/Praveenraj3537/FashionMNSIT',
-        category: ['python'],
+        category: ['python', 'ML/DL'],
         description: 'The project is based on Machine Learning. I have made use of fashion MNSIT dataset for training and testing the images to predict. Made use of Kears library for sequential modeling of the data. Predictions are made on random apperals images.',
     },
 
